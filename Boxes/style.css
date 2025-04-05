@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#parent{
+    width: 100vw;
+    height: 90vh;
+    background-color: yellowgreen;
+    overflow: scroll;
+}
+
+#div01{
+    height: 50vh;
+    background-color: gray;
+    width: 50vw;
+    overflow: hidden;
+    border: 2px solid black;
+    
+}
+
+#div02{
+    width: 50vw;
+    height: 50vh;
+    background-color: gray;
+}
+
+

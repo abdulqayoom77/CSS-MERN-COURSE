@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px 0px;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+select{
+    background-color: black !important;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,31 @@
+/* .headings{
+    color: aqua;
+}
+
+#fifth-h1{
+    color: yellowgreen;
+} */
+
+/* body{
+    background-color: rgba(52, 170, 113, 0.7);
+}
+
+#h1 {
+    color: aqua;
+}
+
+#h2{
+    color: #9caa34;
+} */
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#heading01 {
+  background-color: #7A1FA2;
+}
+#heading02 {
+  background-color: #ee3e80;
+}
+#paragraph {
+  background-color: #c1b2b2;
+}

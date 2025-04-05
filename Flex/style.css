@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #6e5e5e;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+
+#main div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+
+.centeredContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

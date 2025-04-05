@@ -1,0 +1,123 @@
+/* body {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+#animated {
+  height: 100px;
+  width: 20px;
+  background-color: black;
+  border-radius: 10%;
+  animation-name: shapeShift;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  animation-direction: alternate-reverse;
+}
+
+@keyframes shapeShift{
+    from{
+        background-color: blue;
+        top: 0%;
+    }
+    to{
+        background-color: violet;
+        top: 25%;
+        height: 120px;
+        width: 60px;
+    }
+}? */
+
+/* @keyframes bouncing {
+  from {
+    top: 0%;
+    background-color: black;
+
+  }
+  to {
+    top: 50%;
+    background-color: aqua;
+  }
+} */
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#wrapper{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+#div01 {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  animation-name: div01;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#div02 {
+  background-color: rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  animation-name: div02;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes div01 {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    left: 20px;
+    top: 0px;
+  }
+  50% {
+    top: 20px;
+    left: 20px;
+  }
+  75% {
+    top: 20px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+@keyframes div02 {
+  0% {
+    top: 20px;
+    left: 20px;
+  }
+  25% {
+    left: 0px;
+    top: 20px;
+  }
+  50% {
+    top: 0px;
+    left: 0px;
+  }
+  75% {
+    top: 0px;
+    left: 20px;
+  }
+  100% {
+    top: 20px;
+    left: 20px;
+  }
+}

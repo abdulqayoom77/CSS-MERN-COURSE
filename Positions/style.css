@@ -1,0 +1,66 @@
+/* #wrapper {
+  height: 400px;
+  width: 400px;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+#div01 {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 0, 0);
+  position: absolute;
+  right: 0px;
+}
+
+#div02 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  background-color: blue;
+}
+
+ */
+
+/* #sticky{
+    background-color: yellowgreen;
+    position: fixed;
+    top: 0px;
+}
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  height: 600px;
+  width: 600px;
+  background-color: gray;
+  /* position: relative; */
+}
+
+#wrapper div{
+  height: 100px;
+  width: 100px;
+}
+
+#div1{
+  background-color: white;
+position: absolute;
+z-index: 2;
+  
+}
+#div2{
+ background-color: black;
+position: absolute;
+z-index: 1;
+}
+#div3{
+background-color: red;
+/* position: absolute; */
+z-index: 3;
+/* float: right; */
+float: right;
+}

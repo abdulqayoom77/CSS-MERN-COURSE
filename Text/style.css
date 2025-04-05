@@ -1,0 +1,87 @@
+* {
+  font-family:sans-serif;
+}
+
+
+body {
+  background-color: rgb(115, 118, 121);
+}
+
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+
+    word-spacing: 5px;
+    /* font-weight: bold; */
+    text-align:center;
+}
+
+
+#shadow{
+    text-shadow: 10px -10px 10px #000;
+}
+/* h1{
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+#discount{
+    text-decoration: overline;
+}
+
+#price{
+    text-decoration: blink;
+} */
+#first-letter{
+    text-align: left;
+}
+
+#first-letter::first-line{
+    font-weight: bold;
+}
+
+#first-letter::first-letter{
+    font-size: 50px;
+    color: #000;
+}
+
+#link:link{
+    color: black;
+}
+
+#visited:visited{
+    color: orange;
+
+}
+
+
+button{
+    color: aliceblue;
+    background-color: black;
+}
+
+button:hover{
+    color: black;
+    background: white;
+}
+
+button:active{
+    background: purple;
+    color: aqua;
+}
+
+/* input:focus{
+    background-color: red;
+} */
+
+input:active{
+    background-color: violet;
+}
+

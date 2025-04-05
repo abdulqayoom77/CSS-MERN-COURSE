@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#navlinks a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+#firstTwoCards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#firstTwoCards div {
+  height: 300px;
+  width: 250px;
+  background: #000;
+}
+
+#lastTwoCards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+}
+#lastTwoCards div {
+  height: 300px;
+  width: 250px;
+  background: #000;
+}

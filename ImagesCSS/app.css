@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  height: 500vh;
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1529778873920-4da4926a72c2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main div {
+    background-color: rgba(255, 0, 0, 0.096);
+    height: 100vh;
+  width: 100vw;
+  margin: 100px 0px;
+}
