@@ -1,0 +1,44 @@
+body{
+    background-color: #E3E6E6;
+}
+
+#section-02{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.inner-divs-02{
+    height: 420px;
+    width: 355px;
+    background-color: white;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inner-divs-02 h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.inner-divs-02 .pic-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.inner-divs-02 .pic-div div img{
+    height: 85px;
+}
+.inner-divs-02 .pic-div div p{
+    font-size: 12px;
+}
+
+.inner-divs-02 a{
+    color: #2162a1;
+}
+.inner-divs-02 a:hover{
+    color: #0C3353;
+}
